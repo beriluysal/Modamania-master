@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.MainActivity">
+
+
+    <com.modart.modamania.helper.CustomViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/view_divider"
+        android:id="@+id/viewpager"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#757575"
+        android:layout_above="@+id/bottomNav"
+        android:id="@+id/view_divider"
+        />
+
+    <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottomNav"
+        app:menu="@menu/main_contacts"
+        android:background="#f3f3f3"
+        style="@style/BottomNavigationTheme"
+        app:itemIconTint="@drawable/bottom_navigation_color_selector"
+        app:itemTextColor="@drawable/bottom_navigation_color_selector"
+
+
+/>
+
+
+</RelativeLayout>

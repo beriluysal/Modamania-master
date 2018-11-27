@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:checked="true"
+        android:icon="@drawable/tab_home"
+        android:enabled="true"
+        android:title="Ana Sayfa"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_trending"
+        android:checked="false"
+        android:title="Trendler"
+        android:icon="@drawable/tab_trending"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_addpost"
+        android:checked="false"
+        android:title="Ekle"
+        android:icon="@drawable/tab_addpost"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_notify"
+        android:checked="false"
+        android:title="Bildirimler"
+        android:icon="@drawable/tab_notify"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_prof"
+        android:checked="false"
+        android:title="Profilim"
+        android:icon="@drawable/tab_profile"
+        app:showAsAction="ifRoom" />
+
+</menu>
